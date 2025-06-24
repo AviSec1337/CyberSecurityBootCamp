@@ -88,6 +88,7 @@ Before the lab, make sure you:
 
 ## 📌 Resources
 
+- [DVWA Cheat Sheet (Low & Medium)] (https://medium.com/@LoaySalah/dvwa-cheat-sheet-low-medium-c7490e76f1b5)
 - [Wazuh Docs](https://documentation.wazuh.com/)
 - [Sysmon Setup Guide](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon)
 - [MITRE ATT&CK Matrix](https://attack.mitre.org/)
