@@ -9,6 +9,8 @@
 
 ## 🧠 **Core Concepts**
 ![image](https://github.com/user-attachments/assets/6d50b8cb-86a8-44bb-bc6b-f1c31b86edc0)
+![image](https://github.com/user-attachments/assets/777a329f-0dd8-4d46-a5aa-d6121fa06d79)
+![image](https://github.com/user-attachments/assets/4f2f752a-ffc6-4916-bb55-c15d2d69c6d1)
 
 ### 1. **Defense-in-Depth**
 
