@@ -1,19 +1,19 @@
-# 🛡️ 1-Day Cybersecurity Bootcamp: Blue Team Foundations
+# 🛡️ Day 2 Cybersecurity Bootcamp: Blue Team Foundations
 
-Welcome to the **1-Day Cybersecurity Bootcamp** – a hands-on, beginner-friendly crash course focused on **Blue Teaming** and foundational cybersecurity concepts. Whether you're completely new or brushing up on skills, this session is designed to get you up to speed with real-world defensive techniques.
+Welcome to the **Day 2 Cybersecurity Bootcamp** – a hands-on, beginner-friendly crash course focused on **Blue Teaming** and foundational cybersecurity concepts. Whether you're completely new or brushing up on skills, this session is designed to get you up to speed with real-world defensive techniques.
 
 ---
 
 ## 🗓️ Timeline & Agenda
 
-| Time       | Activity                                                                 |
+|            | Activity                                                                 |
 |------------|--------------------------------------------------------------------------|
-| 6:30–6:45  | ✅ **Day 1 Recap + Blue Teaming Philosophy**                              |
-| 6:45–7:15  | 🛠️ **SIEM Overview**: Architecture, Purpose, Wazuh Demo Introduction      |
-| 7:15–7:45  | 📊 **Understanding Log Sources**: Windows Logs, Sysmon, Linux Audit Logs  |
-| 7:45–8:15  | ⚠️ **Alerting Basics**: FIM, RIM, Log Forwarding                          |
-| 8:15–8:45  | 🔎 **Detection Techniques**: IoCs, Detection Rules, UEBA, Threat Hunting  |
-| 8:45–9:00  | 🧪 **Lab Orientation + Setup Help for Day 3**                             |
+|            | ✅ **Day 1 Recap + Blue Teaming Philosophy**                              |
+|            | 🛠️ **SIEM Overview**: Architecture, Purpose, Wazuh Demo Introduction      |
+|            | 📊 **Understanding Log Sources**: Windows Logs, Sysmon, Linux Audit Logs  |
+|            | ⚠️ **Alerting Basics**: FIM, RIM, Log Forwarding                          |
+|            | 🔎 **Detection Techniques**: IoCs, Detection Rules, UEBA, Threat Hunting  |
+|            | 🧪 **Lab Orientation + Setup Help for Day 3**                             |
 
 ---
 
