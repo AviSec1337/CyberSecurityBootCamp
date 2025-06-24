@@ -18,7 +18,7 @@
 ### 2. **Security Monitoring**
 
 * Watching systems for signs of malicious activity.
-* Use of tools like **SIEM** (e.g., Splunk, ELK Stack).
+* Use of tools like **SIEM** (e.g., Splunk, ELK Stack, Wazuh, LogPoint, LogRhythm, FortiSIEM).
 
 ### 3. **Incident Response (IR)**
 
