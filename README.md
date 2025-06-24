@@ -1,124 +1,107 @@
-# CyberSecurityBootCamp
+# 🛡️ 1-Day Cybersecurity Bootcamp: Blue Team Foundations
 
-# 🛡️ Cybersecurity Bootcamp
-
-Welcome to the **Cybersecurity Bootcamp**! This program is designed to take you from zero knowledge to hands-on skills in cybersecurity, blue teaming, and threat detection. Whether you're new to IT or looking to shift into a security-focused role, this bootcamp will provide practical knowledge, labs, and real-world tools.
+Welcome to the **1-Day Cybersecurity Bootcamp** – a hands-on, beginner-friendly crash course focused on **Blue Teaming** and foundational cybersecurity concepts. Whether you're completely new or brushing up on skills, this session is designed to get you up to speed with real-world defensive techniques.
 
 ---
 
-## 📚 Course Structure
+## 🗓️ Timeline & Agenda
 
-### 🔰 Week 1: Cybersecurity Fundamentals
-
-- **What is Cybersecurity?**
-- Types of Threats (Malware, Phishing, Ransomware, etc.)
-- Security Goals: CIA Triad (Confidentiality, Integrity, Availability)
-- Basic Networking Concepts (IP, TCP/IP, Ports, DNS)
-- Operating Systems Overview (Windows, Linux)
-- Introduction to Virtual Machines (VMs)
-
----
-
-### 🛡️ Week 2: Blue Teaming Foundations
-
-#### Day 1
-- Introduction to **Blue Teaming**
-- Security Operations Center (SOC) Overview
-- Roles: SOC Analyst, Threat Hunter, Incident Responder
-- Intro to SIEM (Security Information and Event Management)
-- Setting Up Lab Environment (Wazuh, ELK Stack)
-
-#### Day 2
-- **Quick Recap + Blue Teaming Philosophy**
-- **SIEM Overview**:
-  - Architecture
-  - Purpose
-  - Wazuh Demo Introduction
-- **Understanding Log Sources**:
-  - Windows Event Logs
-  - Sysmon
-  - Linux Audit Logs
-- **Alerting Basics**:
-  - File Integrity Monitoring (FIM)
-  - Registry Integrity Monitoring (RIM)
-  - Log Forwarding
-- **Detection Techniques**:
-  - Indicators of Compromise (IoCs)
-  - Detection Rules
-  - UEBA (User and Entity Behavior Analytics)
-  - Threat Hunting
-- **Lab Orientation & Setup Help**
+| Time       | Activity                                                                 |
+|------------|--------------------------------------------------------------------------|
+| 6:30–6:45  | ✅ **Day 1 Recap + Blue Teaming Philosophy**                              |
+| 6:45–7:15  | 🛠️ **SIEM Overview**: Architecture, Purpose, Wazuh Demo Introduction      |
+| 7:15–7:45  | 📊 **Understanding Log Sources**: Windows Logs, Sysmon, Linux Audit Logs  |
+| 7:45–8:15  | ⚠️ **Alerting Basics**: FIM, RIM, Log Forwarding                          |
+| 8:15–8:45  | 🔎 **Detection Techniques**: IoCs, Detection Rules, UEBA, Threat Hunting  |
+| 8:45–9:00  | 🧪 **Lab Orientation + Setup Help for Day 3**                             |
 
 ---
 
-### 🔍 Week 3: Threat Detection & Incident Response
+## 🧭 Learning Objectives
 
-- Deep Dive into SIEM Dashboards
-- Writing Custom Detection Rules
-- Analyzing Real Logs (Sysmon, Firewall, Proxy, DNS)
-- Malware Behavior Analysis
-- Hands-on Labs: Investigating Incidents
-
----
-
-### ⚙️ Week 4: Hardening & Monitoring
-
-- Host Hardening (Windows & Linux)
-- Patch Management
-- Logging Best Practices
-- Endpoint Detection and Response (EDR)
-- Cloud Security Basics (AWS/Azure Logging)
-- Final Lab: Blue Team Challenge
+By the end of this day, you will:
+- Understand the **role of a Blue Team** in cybersecurity.
+- Know how **SIEM tools** like Wazuh help monitor and detect threats.
+- Learn key **log sources** from Windows, Sysmon, and Linux systems.
+- Grasp basic **alerting mechanisms** and why integrity monitoring matters.
+- Identify **Indicators of Compromise (IoCs)** and apply **detection rules**.
 
 ---
 
-## 🧪 Tools Covered
+## 🛠️ Tools You’ll Use
 
-- 🛠️ Wazuh (SIEM)
-- 🖥️ Sysmon
-- 📊 ELK Stack (Elasticsearch, Logstash, Kibana)
-- 🧱 pfSense / Firewall Logs
-- 🔐 Splunk (Intro)
-- 🛡️ Zeek / Suricata (Network Monitoring)
-
----
-
-## 💼 Who Is This For?
-
-- Beginners in Cybersecurity
-- Aspiring SOC Analysts or Blue Teamers
-- IT professionals transitioning into security
+- **Wazuh**: Open-source SIEM
+- **Sysmon**: Windows system monitoring
+- **Linux auditd**: Linux event auditing
+- **File Integrity Monitoring (FIM)**
+- **UEBA**: User & Entity Behavior Analytics
 
 ---
 
-## 📌 Prerequisites
+## 📚 Topics Covered
 
-- Basic understanding of computers
-- Curiosity and willingness to learn
-- No coding experience required (but helpful)
+### 🔹 Blue Teaming Philosophy
+- Defensive mindset
+- Preventing, detecting, and responding to threats
+
+### 🔹 SIEM Overview
+- What is a SIEM?
+- How Wazuh fits in the SIEM ecosystem
+- Architecture and data flow
+- Demo: Wazuh in action
+
+### 🔹 Log Sources
+- Why logs matter
+- Types of logs:
+  - **Windows Logs** (Event Viewer)
+  - **Sysmon Logs** (Detailed system monitoring)
+  - **Linux audit logs** (`auditd` basics)
+
+### 🔹 Alerting Basics
+- What is File Integrity Monitoring (FIM)?
+- Registry Integrity Monitoring (RIM)
+- Log forwarding to SIEM
+
+### 🔹 Detection Techniques
+- What are IoCs (hashes, IPs, domains)?
+- Writing simple detection rules
+- Introduction to UEBA and Threat Hunting
 
 ---
 
-## 🎓 Outcome
+## 🧪 Lab Prep
 
-By the end of the bootcamp, you'll be able to:
-- Understand how cyber threats work
-- Use SIEM tools to detect and analyze threats
-- Monitor system and network logs effectively
-- Apply blue team techniques in real-world scenarios
+Before the lab, make sure you:
+- Have your VM or cloud instance ready (Ubuntu/Windows)
+- Install Wazuh agent or log collection tools
+- Join the setup session at 8:45 for help
 
 ---
 
-## 📁 Resources
+## 🙌 Get Involved
+
+- 💬 Ask questions
+- 🧠 Think like a defender
+- 👣 Take notes and document what you learn
+
+---
+
+## 📌 Resources
 
 - [Wazuh Docs](https://documentation.wazuh.com/)
-- [MITRE ATT&CK Framework](https://attack.mitre.org/)
-- [Sysinternals Suite](https://docs.microsoft.com/en-us/sysinternals/)
-- [Cybersecurity Learning Roadmap](https://github.com/infosecn1nja/awesome-cybersecurity-blueteam)
+- [Sysmon Setup Guide](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon)
+- [MITRE ATT&CK Matrix](https://attack.mitre.org/)
+- [Linux Audit Logs](https://linux.die.net/man/8/auditd)
 
 ---
 
-## 🚀 Let’s get started!
+## ✅ After This Course
 
-Fork this repo, start the labs, and begin your journey into cybersecurity defense!
+You're now ready to:
+- Start threat hunting labs
+- Dive deeper into log analysis
+- Join or contribute to a Blue Team
 
+---
+
+**Let’s defend smart. Let’s Blue Team.**
